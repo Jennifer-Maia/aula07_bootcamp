@@ -5,6 +5,6 @@
 #6. **Encontrar Valores Ausentes em uma Sequência**
 
 
-def encontrar_valores_ausentes(sequencia: List[int]) -> List[int]:
+def encontrar_valores_ausentes(sequencia: list[int]) -> list[int]:
     completo = set(range(min(sequencia), max(sequencia) + 1))
     return list(completo - set(sequencia))

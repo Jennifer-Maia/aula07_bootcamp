@@ -5,5 +5,5 @@
 #3. **Contar Valores Únicos em uma Lista**
 
 
-def contar_valores_unicos(lista: List[int]) -> int:
+def contar_valores_unicos(lista: list[int]) -> int:
     return len(set(lista))
